@@ -198,7 +198,7 @@
 }
 
 .social-links img {
-  width: 40px; /* Adjust size as needed */
+  width: auto; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
