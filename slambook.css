@@ -186,5 +186,23 @@
 	width: 93%;
 	height: 4cm;
 }
+
+    .social-media {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .logo {
+      width: 100px; /* Adjust the size of the logo as needed */
+    }
+
+    .social-links {
+      margin-top: 10px;
+    }
+
+    .social-links img {
+      width: 30px; /* Adjust the size of social media icons as needed */
+      margin: 0 5px; /* Adjust the spacing between icons as needed */
+    }
 </STYLE>/* CSS Document */
 
