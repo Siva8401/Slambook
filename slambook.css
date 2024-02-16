@@ -197,14 +197,20 @@
     }
 
     .social-links {
-      text-align: center;
-      margin-top: 20px; /* Adjust the margin as needed */
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px; /* Adjust the spacing between links */
     }
 
     .social-links img {
       width: 40px; /* Adjust the width of the images */
       height: auto; /* Maintain aspect ratio */
-      margin: 0 10px; /* Adjust the spacing between images */
     }
 </STYLE>/* CSS Document */
 
