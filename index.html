@@ -178,25 +178,6 @@
           </tr>
         </table>
         <p>&nbsp;</p>
-        <!-- Include the SOS Alerts form here -->
-        <script>
-          const scriptURL = 'https://script.google.com/macros/s/AKfycbxT0quY7-3sX_4y-fBhR1upUeAl6vLJ9f_I9w9tuvCrIZ9eduLmiQFUvFZ3zzb2PGgw/exec';
-          const form = document.forms['slambook-form'];
-
-          form.addEventListener('submit', e => {
-            e.preventDefault();
-            fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(form)
-              })
-              .then(response => {
-                console.log('Success!', response);
-                alert('Data is Saved'); // Show a popup
-                location.reload(); // Refresh the page
-              })
-              .catch(error => console.error('Error!', error.message));
-          });
-        </script>
 
         <hr />
         <center>
@@ -204,5 +185,26 @@
           <p><strong>Slambook version 2.0</strong></p>
           <p><em>All rights reserved on Sivachandran</em></p>
         </center>
+      </DIV>
+      <div><input type="submit" class="submit" value="Submit" /></div>
+    </FORM>
+  </DIV>
+
+  <script>
+    const form = document.forms['slambook-form'];
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxT0quY7-3sX_4y-fBhR1upUeAl6vLJ9f_I9w9tuvCrIZ9eduLmiQFUvFZ3zzb2PGgw/exec';
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          console.log('Success!', response);
+          alert('Data is Saved'); // Show a popup
+          location.reload(); // Refresh the page
+        })
+        .catch(error => console.error('Error!', error.message))
+    });
+  </script>
 </BODY>
+
 </HTML>
