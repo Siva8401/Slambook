@@ -195,11 +195,6 @@
     .logo {
       width: 100px; /* Adjust the size of the logo as needed */
     }
-.container {
-      max-width: 600px; /* Adjust as needed */
-      margin: 0 auto; /* Center the container horizontally */
-      padding: 20px; /* Add some padding */
-    }
 
     .social-links {
       text-align: center;
