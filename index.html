@@ -18,16 +18,17 @@
 
     <FORM action="slambook.php" method="post" name="slambook-form">
       <DIV>
-        <p><BR> <strong>Name</strong></p>
+        <p><BR> <strong>PERSONAL INFORMATION</strong></p>
         <table width="93%" border="0">
-          <tr>
-            <td><label>First Name:</label><input type="text" name="firstname" /></td>
-            <td><label>Middle Name:</label><input type="text" name="middlename" /></td>
-            <td><label>Last Name:</label><input type="text" name="lastname" /></td>
-          </tr>
           <tr>
             <td><label><font color='red'>*</font>Full Name:</label><input type="text" name="fullname" /></td>
             <td><label>Nick Name:</label><input type="text" name="nickname" /></td>
+          </tr>
+          <tr>
+            <td width="31%"><label><font color='red'>*</font>Date Of Birth:</label><input type="date" name="dateofbirth" /></td>
+            <td width="31%"><label>Zodiac / Astro Sign:</label><input type="text" name="zodiacsign" /></td>
+            <td width="31%"><label><font color='red'>*</font>Gender:</label><input type="radio" name="gender" value="Male" class="gender" />Male<input type="radio" name="gender" value="Female" class="gender" />Female</td>
+          </tr>
             <td>&nbsp;</td>
           </tr>
         </table>
@@ -88,19 +89,11 @@
         </p>
         <table width="93%" border="0">
           <tr>
-            <td><label><font color='red'>*</font>Mobile Number:<br />(with country code)</label><input type="text" name="mobilenumber" /></td>
+            <td><label><font color='red'>*</font>Mobile Number:</label><input type="text" name="mobilenumber" /></td>
           </tr>
         </table>
         <p>
           <hr />
-        <p><strong>Personal Information</strong>
-        </p>
-        <table width="93%" border="0">
-          <tr>
-            <td width="31%"><label><font color='red'>*</font>Date Of Birth:</label><input type="date" name="dateofbirth" /></td>
-            <td width="31%"><label>Zodiac / Astro Sign:</label><input type="text" name="zodiacsign" /></td>
-            <td width="31%"><label><font color='red'>*</font>Gender:</label><input type="radio" name="gender" value="Male" class="gender" />Male<input type="radio" name="gender" value="Female" class="gender" />Female</td>
-          </tr>
         </table>
         <p>
           <hr />
@@ -125,6 +118,7 @@
           <tr>
             <td><label>Things you like mostly:</label><input type="text" name="thingsyoulikemostly"></td>
             <td><label>Funniest moment in your life:</label><input type="text" name="funniestmoment"></td>
+            <td><label>Favorite Place to travel</label><input type="text" name="favplacetotravel"></td>
             <td>&nbsp;</td>
           </tr>
           <tr>
@@ -133,6 +127,8 @@
             <td><label>Crazy about things like:</label><input type="text" name="crazyaboutthings"></td>
           </tr>
           <tr>
+            <td><label>Favorite Temple</label><input type="text" name="favtemple"></td>
+            <td><label>Favorite God</label><input type="text" name="favgod"></td>
             <td><label>Any other dislike:</label><input type="text" name="anyotherdislikes"></td>
             <td></td>
             <td></td>
@@ -181,12 +177,19 @@
          <div><input type="submit" class="submit" value="Submit" /></div>
         <hr />
         <center>
-          <p><strong><em>&copy; Sivachandran 2024</em></strong></p>
-          <p><strong>Slambook version 2.0</strong></p>
+          <p><strong><em>&copy; Sivachandran 2024 - Slambook version 2.0</em></strong></p>
           <p><em>All rights reserved on Sivachandran</em></p>
         </center>
       </DIV>
     </FORM>
+    <div class="social-media">
+      <img src="your_logo_image_url.png" alt="Logo" class="logo">
+      <div class="social-links">
+        <a href="your_facebook_link" target="_blank"><img src="facebook_icon_url.png" alt="Facebook"></a>
+        <a href="your_twitter_link" target="_blank"><img src="twitter_icon_url.png" alt="Twitter"></a>
+        <a href="your_instagram_link" target="_blank"><img src="instagram_icon_url.png" alt="Instagram"></a>
+        <!-- Add more social media links as needed -->
+      </div>
   </DIV>
 
   <script>
