@@ -211,12 +211,6 @@
       height: auto;
     }
 
-    @media (max-width: 768px) {
-      /* Adjust styles for smaller screens (e.g., tablets and mobile devices) */
-      .container {
-        padding: 10px;
-      }
-
       .social-links {
         margin-top: 10px;
       }
