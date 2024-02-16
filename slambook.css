@@ -187,7 +187,7 @@
 	height: 4cm;
 }
 
-    .social-media {
+   .social-media {
       text-align: center;
       margin-top: 20px;
     }
@@ -196,28 +196,15 @@
       width: 100px; /* Adjust the size of the logo as needed */
     }
 
-    .social-links {
+  .social-links {
       text-align: center;
-      margin-top: 20px;
-    }
-
-    .social-links a {
-      display: inline-block;
-      margin: 0 10px;
+      margin-top: 20px; /* Adjust the margin as needed */
     }
 
     .social-links img {
-      width: 40px;
-      height: auto;
-    }
-
-      .social-links {
-        margin-top: 10px;
-      }
-
-      .social-links img {
-        width: 30px;
-      }
+      width: 40px; /* Adjust the width of the images */
+      height: auto; /* Maintain aspect ratio */
+      margin: 0 10px; /* Adjust the spacing between images */
     }
 </STYLE>/* CSS Document */
 
