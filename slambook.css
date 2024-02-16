@@ -195,17 +195,40 @@
     .logo {
       width: 100px; /* Adjust the size of the logo as needed */
     }
+.container {
+      max-width: 600px; /* Adjust as needed */
+      margin: 0 auto; /* Center the container horizontally */
+      padding: 20px; /* Add some padding */
+    }
 
     .social-links {
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
     }
 
     .social-links img {
-      width: 40px; /* Adjust the width of the images */
-      height: auto; /* Maintain aspect ratio */
-      margin: 0 10px; 
+      width: 40px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      /* Adjust styles for smaller screens (e.g., tablets and mobile devices) */
+      .container {
+        padding: 10px;
+      }
+
+      .social-links {
+        margin-top: 10px;
+      }
+
+      .social-links img {
+        width: 30px;
+      }
     }
 </STYLE>/* CSS Document */
 
