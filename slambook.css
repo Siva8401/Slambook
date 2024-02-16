@@ -187,6 +187,7 @@
 	height: 4cm;
 }
 
+/* Social media links styles */
 .social-links {
   text-align: center;
   margin-top: 20px; /* Adjust margin as needed */
@@ -198,9 +199,8 @@
 }
 
 .social-links img {
-  width: auto; /* Adjust size as needed */
+  width: 30px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
-
 </STYLE>/* CSS Document */
 
