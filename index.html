@@ -9,31 +9,30 @@
   <META name="GENERATOR" content="MSHTML 10.00.9200.16384">
   <link href="slambook.css" rel="stylesheet" type="text/css" />
 </HEAD>
-<BODY>
-  <DIV id="header"><IMG class="XtGem logo" style="margin: 5px 0px 0px 5px;" alt="" src="sadakpramodh.jpg"> </DIV>
+<BODY style="background-color: aquamarine;">
   <H1>
-    <center> Slam book </center>
+    <center> <h2>S L A M &nbsp;&nbsp;&nbsp;B O O K</h2></center>
   </H1>
-  <DIV class="container">
-
+  <DIV class="container" style="background-color: silver">
     <FORM action="slambook.php" method="post" name="slambook-form">
       <DIV>
-        <p><BR> <strong>PERSONAL INFORMATION</strong></p>
+        <p><BR><strong><h3>PERSONAL INFORMATION</h3></strong></p>
         <table width="93%" border="0">
+            
           <tr>
-            <td><label><font color='red'>*</font>Full Name:</label><input type="text" name="fullname" /></td>
-            <td><label>Nick Name:</label><input type="text" name="nickname" /></td>
+            <td><label>Full Name:</label><input type="text" name="fullname" /></td>
+            <td><label>People call you:</label><input type="text" name="nickname" /></td>
+            <td width="31%"><label>Zodiac sign:</label><input type="text" name="zodiacsign" /></td>
           </tr>
           <tr>
-            <td width="31%"><label><font color='red'>*</font>Date Of Birth:</label><input type="date" name="dateofbirth" /></td>
-            <td width="31%"><label>Zodiac / Astro Sign:</label><input type="text" name="zodiacsign" /></td>
-            <td width="31%"><label><font color='red'>*</font>Gender:</label><input type="radio" name="gender" value="Male" class="gender" />Male<input type="radio" name="gender" value="Female" class="gender" />Female</td>
+            <td width="31%"><label>Naksatram</label><input type="text" name="naksatram" /></td>
+            <td width="31%"><label>Date Of Birth:</label><input type="date" name="dateofbirth" /></td>
+            <td width="31%"><label>Star Birthday</label><input type="date" name="starbirthday" /></td>
           </tr>
             <td>&nbsp;</td>
-          </tr>
         </table>
-        <hr />
-        <p><BR> <strong>Friends &amp; Family</strong></p>
+        <hr>
+        <p><strong><h3>FRIENDS & FAMILY</h3></strong></p>
         <table width="93%" border="0">
           <tr>
             <td><label>Father Name:</label><input type="text" name="fathername" /></td>
@@ -48,56 +47,42 @@
         </table>
         <p>
           <hr />
-        <p><strong>Postal Address</strong>
+        <p><strong><h3>POSTAL ADDRESS</h3></strong>
         </p>
         </p>
-
         <table width="93%" border="0">
           <tr>
-            <td><label><font color='red'>*</font>Door / House Number:</label><input type="text" name="doornumber" /></td>
+            <td><label>Door / House Number:</label><input type="text" name="doornumber" /></td>
             <td><label>Land Mark:</label><input type="text" name="landmark" /></td>
-            <td><label><font color='red'>*</font>City / Town / Village Name:</label><input type="text" name="townname" /></td>
+            <td><label>City / Town / Village Name:</label><input type="text" name="townname" /></td>
           </tr>
           <tr>
             <td><label>District:</label><input type="text" name="distict" /></td>
-            <td><label><font color='red'>*</font>State:</label><input type="text" name="state" /></td>
-            <td><label><font color='red'>*</font>Country:</label><input type="text" name="country" /></td>
+            <td><label>State:</label><input type="text" name="state" /></td>
+            <td><label>Country:</label><input type="text" name="country" /></td>
           </tr>
           <tr>
-            <td><label><font color='red'>*</font>Postal / Zip Code:</label><input type="text" name="postalcode" /></td>
+            <td><label>Postal Code:</label><input type="text" name="postalcode" /></td>
             <td></td>
           </tr>
         </table>
         <p>
           <hr />
-        <p><strong>Network Communication</strong>
-        </p>
-
+        <p><strong><h3>SOCIAL MEDIA</h3></strong></p>
         </p>
         <table width="93%" border="0">
           <tr>
-            <td><label><font color='red'>*</font>Email Id:</label><input type="text" name="emailid" /></td>
-            <td><label><font color='red'>*</font>Facebook:</label><input type="text" name="facebook" /></td>
-            <td><label>Youtube Channel Name</label><input type="text" name="youtube" /></td>
+            <td><label>Email Id:</label><input type="text" name="emailid" /></td>
+            <td><label>Instagram Id:</label><input type="text" name="facebook" /></td>
+            <td><label>Youtube Channel Name:</label><input type="text" name="youtube" /></td>
+          </tr>
+          <tr>
+            <td><label>Mobile Number:</label><input type="text" name="mobilenumber" /></td>
           </tr>
         </table>
         <p>
           <hr />
-        <p><strong>Mobile Network Communication</strong>
-        </p>
-
-        </p>
-        <table width="93%" border="0">
-          <tr>
-            <td><label><font color='red'>*</font>Mobile Number:</label><input type="text" name="mobilenumber" /></td>
-          </tr>
-        </table>
-        <p>
-          <hr />
-        </table>
-        <p>
-          <hr />
-        <p><strong>Likes and Dislikes</strong>
+        <p><strong><h3>FAVORITES , LIKES & DISLIKES</h3></strong>
         </p>
         <table width="93%" border="0">
           <tr>
@@ -118,7 +103,7 @@
           <tr>
             <td><label>Things you like mostly:</label><input type="text" name="thingsyoulikemostly"></td>
             <td><label>Funniest moment in your life:</label><input type="text" name="funniestmoment"></td>
-            <td><label>Favorite Place to travel</label><input type="text" name="favplacetotravel"></td>
+            <td><label>Favorite Place to travel:</label><input type="text" name="favplacetotravel"></td>
             <td>&nbsp;</td>
           </tr>
           <tr>
@@ -127,16 +112,19 @@
             <td><label>Crazy about things like:</label><input type="text" name="crazyaboutthings"></td>
           </tr>
           <tr>
-            <td><label>Favorite Temple</label><input type="text" name="favtemple"></td>
-            <td><label>Favorite God</label><input type="text" name="favgod"></td>
+            <td><label>Favorite Temple:</label><input type="text" name="favtemple"></td>
+            <td><label>Favorite God:</label><input type="text" name="favgod"></td>
             <td><label>Any other dislike:</label><input type="text" name="anyotherdislikes"></td>
-            <td></td>
-            <td></td>
+          </tr>
+          <tr>
+            <td><label>Who is your celebrity crush?</label><input type="text" name="celebritycrush"></td>
+            <td><label>Who was your first Crush?</label><input type="text" name="firstcrush"></td>
+            <td><label>Do you believe in love?</label><input type="text" name="doyoubelieveinyou"></td>
           </tr>
         </table>
         <p>
           <hr />
-        <p><strong>On Sivachandran</strong>
+        <p><strong><h3>ON SIVACHANDRAN</h3></strong>
         </p>
         </p>
         <table width="93%" border="0">
@@ -150,27 +138,30 @@
             <td><label>Most undesirable moment by me:</label><input type="text" name="undesirablemonentbyme" /></td>
             <td><label>First meet with me:</label><input type="text" name="firstmeetwithme" /></td>
           </tr>
+          <tr>
+            <td><label>A Song you would like to dedicate me:</label><input type="text" name="dedicatedsong" /></td>
+          </tr>
         </table>
         <p>
           <hr />
-        <p><strong>Goals and Inspirations</strong>
+        <p><strong><h3>GOALS AND INSPIRATIONS</h3></strong>
         </p>
 
         <table width="93%" border="0">
           <tr>
             <td><label>Life ambition:</label><input type="text" name="lifeambition" /></td>
-            <td><label>Inspired by:</label><input type="text" name="inspiredby" /></td>
+            <td><label>Hobbies</label><input type="text" name="hobbies" /></td>
             <td><label>Your role model:</label><input type="text" name="yourrolemodel" /></td>
           </tr>
         </table>
         <p>
           <hr />
-        <p><strong>About You</strong>
+        <p><strong><h3>ABOUT YOU</h3></strong>
         </p>
         <table width="94%" height="108" border="0">
           <tr>
-            <td><label><font color='red'>*</font>About Your Self:</label>
-              <textarea name="aboutyou">Write Something about Yourself</textarea></td>
+            <td><label><h3>About Your Self:</h3></label>
+            <textarea name="aboutyou">Write Something about Yourself</textarea></td>
           </tr>
         </table>
          <div><center><input type="submit" class="submit" value="Submit" /></center></div>
