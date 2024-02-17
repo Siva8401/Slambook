@@ -7,15 +7,15 @@
         body { margin: 0; background-color: #f7f7f7; }
         a { color: #4089db } a:focus { outline: thin dotted; } a:active, a:hover { outline: 0; }
         strong { font-weight: bold; } small { font-size: 80%; }
-        input { font-family: inherit; font-size: 15px; margin: 0; }
-        input { line-height: normal; }, input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+        input { font-family: inherit; font-size: 15px; margin: 20px; }
+        input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
         input::-moz-focus-inner { border: 0; padding: 0; }
         ul { margin: 0; }
 
         #header
         {
             height: 40px;
-            background: url("header_bg.jpg") 0 0 repeat-x;
+            background: url("bgimg.jpg") 0 0 repeat-x;
             width: 100%;
         }
         .container
@@ -25,7 +25,6 @@
             font-size: 14px;
             text-align: left;
             background-color: #fff;
-            border: solid 1px #bababa;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
             border-radius: 5px;
@@ -56,16 +55,17 @@
         input
         {
            	/* You can set width to whatever you like */    
-	width: 200px;    
+	width: 250px;   
+    height:12px; 
 	font-family: "Segoe Script";    
 	font-size: 16px;    
 	margin: 0;    
 	padding: 8px 8px 6px 8px;    
-	position: relative;    
-	display: block;    
-	outline: none;    
-	border: none;    
-	background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;    
+	position: relative;
+	display:block; 
+	outline: none;
+	border:border-box;    
+    border-radius:20px;
 	background-size: 1px 6px, 1px 1px, 1px 6px; 
 	align:center;
 	text-align:center;
@@ -74,14 +74,15 @@
 			{
 				        	/* You can set width to whatever you like */    
 	 width: 100%;
-	font-family: "Segoe Script";    
+	font-family:"Segoe Script";    
 	font-size: 16px;    
 	margin: 0;    
 	padding: 8px 8px 6px 8px;    
 	position: relative;    
 	display: block;    
 	outline: none;    
-	border: none;    
+	border:border-box;
+    border-radius: 20px;
 	background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;    
 	background-size: 1px 6px, 1px 1px, 1px 6px; 
 	align:center;
@@ -90,7 +91,8 @@
 				
 		label
 			{
-				color:#C3F;
+				font-weight: bold;
+                color:rgb(12, 4, 248);
 			}
 
         .submit
@@ -103,9 +105,7 @@
             color: #ffffff;
             text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
             text-decoration: none;
-
             border: 0;
-
             background-color: #6bc135;
             background-image: -moz-linear-gradient(top, #a0e71b, #41af00);
             background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0e71b), to(#41af00));
@@ -163,8 +163,8 @@
         }
 		.gender
 			{
-			width:15px;
-			height:15px;
+			width:12x;
+			height:10px;
 			
 			}
 
@@ -202,5 +202,14 @@
   width: 30px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
+#box {
+    background-color: #4089db;
+    height: 10px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-bottom-left-radius:10px;
+}
 </STYLE>/* CSS Document */
-
