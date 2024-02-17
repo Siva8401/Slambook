@@ -57,7 +57,7 @@
            	/* You can set width to whatever you like */    
 	width: 250px;   
     height:12px; 
-	font-family: "Segoe Script";    
+	font-family: 'Times New Roman', Times, serif;  
 	font-size: 16px;    
 	margin: 0;    
 	padding: 8px 8px 6px 8px;    
@@ -74,7 +74,7 @@
 			{
 				        	/* You can set width to whatever you like */    
 	 width: 100%;
-	font-family:"Segoe Script";    
+	font-family:'Times New Roman', Times, serif; 
 	font-size: 16px;    
 	margin: 0;    
 	padding: 8px 8px 6px 8px;    
